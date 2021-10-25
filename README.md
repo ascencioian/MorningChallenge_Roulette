@@ -5,7 +5,7 @@ There is an admin portal for administrator to sign in to view total casino earni
 
 **Link to project:**
 
-
+<img src="images/live_screenshot.png">
 
 ## How It's Made:
 
