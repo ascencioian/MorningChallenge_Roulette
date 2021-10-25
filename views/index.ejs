@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>Roulette</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="jumbotron text-center">
+        <h1>Roulette Game</h1>
+        <!-- <img src="img/savage21.jpg" alt="21 Savage Profile Photo"> -->
+
+        <p>Click button to gamble on Roulette color</p>
+
+        <form action="/api" method="post">
+            <input type= 'text' name= 'bet' placeholder= 'cash bet here - $$$' >
+            <div class="form-group">
+                <button type="submit" class="btn btn-danger btn-lg" name="button" value = 'red'>red</button>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" name="button" value= 'green'>green</button>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg" name="button" value = 'black'>blue</button>
+            </div>
+
+            
+        </form>
+    
+
+        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> admin login</a>
+
+        <p><%= 'Result of last bet is:' + ' ' + outcome %></p>
+
+    </div>
+
+</div>
+</body>
+</html>
