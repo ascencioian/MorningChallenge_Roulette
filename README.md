@@ -1,4 +1,4 @@
-# My Awesome Project
+# Roulette
 This project is a gambling game to use express and nodejs alongside a sign on authentication tool passport. users have a public facing site available to them where they can place a bet. The application will then show if the user has won or lost their previous bet. 
 
 There is an admin portal for administrator to sign in to view total casino earnings and losses.
